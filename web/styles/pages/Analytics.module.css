@@ -1,0 +1,44 @@
+.analytics {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1424px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.gridRow {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 2.5rem;
+  margin-top: 50px;
+}
+
+.description {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  line-height: 1.5;
+  font-size: 1.2rem;
+  opacity: 0.8;
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0px;
+}

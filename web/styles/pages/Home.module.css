@@ -1,0 +1,91 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.title {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 4rem;
+  margin-top: 50px;
+  margin-bottom: 15px;
+}
+
+.description {
+  line-height: 1.5;
+  font-size: 2.0rem;
+  opacity: 0.8;
+}
+
+.searchTitle {
+  margin-bottom: 20px;
+  line-height: 1.5;
+  font-size: 1.5rem;
+}
+
+.gridContainer {
+  background: #fffbf6;
+  border-radius: 16px;
+  padding: 40px !important;
+  margin-top: 40px;
+}
+
+.buttonsContainer {
+  margin-top: 20px !important;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.resetButton {
+  width: 140px;
+  height: 40px;
+  margin-right: 10px !important;
+}
+
+.submitButton {
+  width: 140px;
+  height: 40px;
+  background-color: #5c82ba !important;
+  color: white !important;
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0px;
+}
+
+.analytics {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1424px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.searchError {
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+.table {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.charts {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+

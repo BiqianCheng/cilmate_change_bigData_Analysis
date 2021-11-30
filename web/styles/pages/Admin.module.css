@@ -1,0 +1,42 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 2rem;
+  margin-top: 50px;
+}
+
+.contentWrapper {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.contentWrapper button {
+  margin: 0px 15px;
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0px;
+}
+
+.table {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  max-width: 1440px;
+  margin: 0 auto;
+}
